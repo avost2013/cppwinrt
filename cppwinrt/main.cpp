@@ -17,7 +17,7 @@ namespace cppwinrt
 
     static constexpr option options[]
     {
-        { "input", 0, option::no_max, "<spec>", "Windows metadata to include in projection" },
+        { "input", 0, option::no_max, "<spec>", "Windows metadata для include in projection" },
         { "reference", 0, option::no_max, "<spec>", "Windows metadata to reference from projection" },
         { "output", 0, 1, "<path>", "Location of generated projection and component templates" },
         { "component", 0, 1, "[<path>]", "Generate component templates, and optional implementation" },
@@ -426,5 +426,6 @@ R"(  local               Local ^%WinDir^%\System32\WinMetadata folder
 
 int main(int const argc, char** argv)
 {
+    
     return cppwinrt::run(argc, argv);
 }

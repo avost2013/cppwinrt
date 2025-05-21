@@ -197,9 +197,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <Manifest Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="app.manifest" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
